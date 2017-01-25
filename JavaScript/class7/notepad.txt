@@ -1,0 +1,46 @@
+this
+	-> outside a function
+		-window
+
+	->within the function
+		->case1:
+			syntax:
+				objectName.functionName(); // this will be objetname
+
+		->case2:
+			syntax:
+				functionName(); // this will be window object
+
+'this' keyword value can be changed using the following:
+
+	call
+	apply
+	bind
+
+General function invocation 
+	syntx:
+		functionName(parameter1, parameter2, parameter3);
+
+call : Executing the function
+		-parameters are passed individually
+	syntx:
+		->functionName.call(objectName, parameter1, parameter2, parameter3)
+
+apply : Executing the function
+		- parameters are passed as an array
+	syntx:
+		->functionName.apply(objectName, [parameter1, parameter2, parameter3])
+
+bind:
+	-to create a new function out of existing function
+	- new function "this" keyword will always be objectName
+
+	var newFunc = oldFunc(objectName)
+
+Homework 19 -Jan- 24- 2017
+
+1) Waht is self? why do we use it?
+2) what are closures?
+3) what is hoisting
+4) what are the different events in javascript or dom?
+5) how to attach an event listener to an elements?

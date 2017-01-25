@@ -1,0 +1,101 @@
+we have a repository
+	https://github.com/karthikkrishna611/UIClassDecember-18-2016
+
+you may clone by using the link:
+	https://github.com/karthikkrishna611/UIClassDecember-18-2016.git
+
+how to clone
+	-> open source tree
+	-> left hand on the top, (clone/new)-> click on it
+	->enter the clone url in source (wher you are downloading the repo from)-> 
+		https://github.com/karthikkrishna611/UIClassDecember-18-2016.git
+
+	->destination (local folder)
+		->make sure the folder you have choosen to clone is empty
+	->clone
+
+
+In sublime text editior to open the code.
+	->open editor
+	->file->open folder->select the folder to open
+	->choose the file to edit
+	->make the modification and save
+
+how to push changes of code into repo
+	-> after modifications are saved
+	->open source tree 
+	->select the repo from the left hand menu-> working copy-> select files to be updated, verify changes, stage them
+	->after staging the filees-> provide the commit message in the bottom input
+	->press on commit
+	-> press on push (makesure you have permissions to push code)
+	->provide github userid and paswword if prompted
+
+Suppose if there were some updates
+ 	->pull on the top
+
+Stash
+	-> temprory place to update data or code
+
+Merge conflicts
+
+
+
+When two or more people change same line of code
+
+we potentialy have maerge conflicts
+
+you can see << == >>>
+
+to resolve them
+
+open the file in editor
+
+remove these lines first
+
+<< <<HEAD
+
+===
+
+consolidate the code which code you want ot have? changes done by ithers, changes made by you
+choose if both has to be inside or  any one of them to be save
+
+make changes and save it
+after removing the unwanted code
+
+-> stage the changes
+-> commit
+->push
+
+pull the latest changes into our local folder and then push the code into repo
+
+
+how to send homework
+
+first time
+	-> create repo
+
+goto github.com--> create repo with "UIClass-December-18-2016-Homework"
+
+clone the repo
+
+open the folder in sublime 
+
+writing home work
+	-> create folder like
+		->homework1-Dec-18-2016
+			-> notepad.txt
+
+write homework -> push the code immediately into github repo
+
+karthikkrishna611@gmail.com
+
+
+Home work3
+
+-> how to resolve merge conflicts
+->what is HTML? how to create a HTMl doc?
+what is DOCTYPE
+what is element
+what is attribute
+create a simple html page? write code
+

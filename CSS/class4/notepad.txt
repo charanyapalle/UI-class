@@ -1,0 +1,41 @@
+
+
+
+
+position:static -> it will not respect top, left, right, bottom
+			relative-> from the current default position, we can move top, left, right, bottom
+			absolute -> with respective to the page we can move top, left, right. bottom
+					->will respect scroll
+					
+			fixed-> with respective to the page we can move top, left, right. bottom
+					-> will not scroll
+
+CSS3 media queries
+
+@media screen
+
+three types of media queries
+	-> print media (css is valid when you are attempting to print pages)
+	-> screen media (css is valid when seeing it in a browser or window or device)
+	-> speech media (css is valid when you ativated screen readers)
+
+@media all | aural | braille |handheld | print | projection | screen | tty | tv | embossed | speech
+
+screen should be 480px=<screen<768px
+	-> min-width: atleast width- ah width varaku ah value apply avthundhii
+	-> max-width: maximum width- atmost- ah width varake value apply avthundhii
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+	/*css goes here*/
+}
+
+mobile
+	320px - 480px 
+mobile
+	480px - 768px
+tablets
+	768px - 994px
+medium desktops
+	994px- 1200px
+large desktops
+	1200px- more

@@ -1,0 +1,24 @@
+while(condition){
+	//stmts
+}
+
+if condition -> true
+	-stmtss will be executed
+if condition -> false
+	-stmts will not be executed
+
+
+do {
+	//stmts;
+}while (condition);
+
+//stmts are executed once and then the condition will be evaluated
+
+if(initialization, condition, increment/ decrement){
+	//stmts;
+}
+
+number
+ 	NaN -- suppose substract two strings (result of arithematic values)
+
+ string + string = string

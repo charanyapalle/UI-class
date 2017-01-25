@@ -1,0 +1,32 @@
+pseudo classes
+	css will only be applied it an element meets a criteria or special state.
+
+pseudo element
+	- a part of element if you select, its pseudo element.
+
+:first-child- if the element is a first-child it will be selected
+	samples:
+		p:first-child-> paragraph as first-child
+		p > :firstchild- first-child of paragraph
+		p :first-child- all the first childs in paragraph
+
+:nth-child(n)
+
+:nth-last-child(n)
+
+:first-of-type
+
+:nth-of-type(n)
+
+:nth-last-of-type(n)
+
+
+Home work 9 -- January-03-2016 explain with examples for all question below: 
+1) what are media queries?
+2) In media queries what are following properties min-width, max-width, resolution, screen, print, speech, with examples 
+3) what are position property values in css (static, relative, absolute, fixed) explain differences ? 
+4) what is a float and clear property in css? 
+5) what is bootstrap grid system? rows and columns? 
+6) what are xs, sm, md, lg in bootstrap? 
+7) differences between container and container-fluid? 
+8) what are the break points to be use in media queries for mobile, tablets, medium size desktops and large desktops?

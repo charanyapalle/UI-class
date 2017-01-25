@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		var arr = [];
+		var arr2 = ['1', '2', '3', '4', '5', '6'];
+		arr2.forEach(function(item, index, array){
+			console.log("the item is: ", item, "the index value is:", index, "the complete array is: ", array);
+		})
+
+		/*for (var i = 0; i < arr2.length; i++) {
+			console.log("the item is: ", arr2[i], )
+		}*/
+
+		var arr3= arr2.map(function(item, index, array){
+			return item + index;
+		})
+		console.log(arr3);
+
+		var arr4 = [40, 2, 10, 5];
+		/*var result = arr4.reduce(function(accumulator,item, index, array){
+			return accumulator + item;
+		})*/
+
+		var result = arr4.reduce(function(accumulator, item, index, array){
+			return Math.min(accumulator, item);
+		})
+		console.log(result);
+		arr4.sort(function(a, b){
+			//return a>b? 1: a==b? 0 : -1;  // -1--> left ; 1 --> right
+			if(a>b){
+				return 1;
+			}else if(a<b){
+				return -1;
+			}else{ 
+				return 0;
+			}
+		});
+		console.log(arr4);
+		console.log(arr4.join( ));
+
+	</script
+
+</body>
+</html>

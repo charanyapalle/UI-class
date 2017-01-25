@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script>
+	var person = {
+		name: 'javascript',
+		age: 24,
+		getName: function(){
+			return this.name;
+		}
+	}
+	console.log(person.getName());// this - person
+	var getFunc = person.getName;
+	console.log(typeof getFunc)
+	console.log(getFunc()); // this- window
+
+	var newObj = {age:500};
+	var newObj2= {name: 'John'};
+	console.log(getFunc.call(newObj)); // this- newObj
+
+	function func1(){
+		console.log(this);
+	}
+	func1();
+	func1.call(newObj); // this- newObj when i use call
+	func1.call(newObj2);
+
+	function func2(a,b,c,d){
+		console.log(this,a,b,c,d)
+	}
+	func2.call(newObj2, 'hi', 'how', 'you');
+	func2.apply(newObj2, ['hi', 'how', 'you']);
+
+	function func3(){
+		console.log(this);
+	}
+	var newFunc = func3.bind(newObj);
+	newFunc();
+</script>
+
+</body>
+</html>

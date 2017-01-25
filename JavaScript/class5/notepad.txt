@@ -1,0 +1,59 @@
+Array
+	mehtods
+
+		-forEach(callback(item, index, array){})
+			-call back will be invoked for every item in the array
+
+		-map(callback(item, index, array){})
+			-call back will be invoked for every item in the array
+			-out of the return values from the callback function, creates a new array and return it
+		-reduce
+			-from left to right reduce using accumulator into one value
+		-sort
+			- we can provide sorting operation here
+		-join(separatorStringBetweenItems)
+			-convert the array into one string
+
+Objects
+	
+	-create an object
+		-var obj = {}; //object literal
+		-var obj1 = new object(); //using new keyword and constructor
+	-whata are properties in objects?
+		-we have key (propertyName) and value (propertyValue) pairs within object 
+		-propertyName always has to be a string
+		-propertyValue can be any java script datatype
+
+		ex:
+			-{
+			prop1: value1,
+			prop2 : value2
+			};
+
+	-get a property value using key (propertyName)
+		-syntax
+			-objectName.propertyName;
+			-objectName['propertyName'];
+
+	-add a property
+		-syntax
+			-objectName.propertyName = value
+			-objectName['propertyName'] =value
+
+	-update a property value
+		-syntax
+			-objectName.propertyName = value
+			-objectName['propertyName'] =value
+
+	-delete a property
+		-syntax
+			delete objectName.propertyName;
+
+	-check if a property exists or not
+		-syntax:
+			-object.hasOwnProperty('propertyName')
+				-true- then property exists
+				-false- then property doesnot exists
+
+				
+

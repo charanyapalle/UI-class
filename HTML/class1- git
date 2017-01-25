@@ -1,0 +1,43 @@
+git
+ 
+ 	version control tool
+ 	Used to manage code on the repo
+
+ github
+ 	repo
+ 	hosting server which stores the code
+ 	similar to github we have bitbucker, stash,..
+
+ local repo
+ 	some thing that we have on our machine
+
+ remote repo
+ 	github
+
+ clone
+ 	download the code for the first time from the repo (github).
+
+ Pull (downloading partial updates)
+ 	if there are any updates to download them again 
+
+ We can make modifications to the existing code in the file system.
+
+ commit
+ 	upload changes from file system to local repo (it will reside on our system)
+
+ Push (uploading changes to github)
+ 	uploading changes from local repo to remote repository (github)
+
+ merge
+ 	combining code written by two or more people
+
+ merge conflicts
+ 	if two or more people modified same line of code, then some manual overwriting of code is needed to correct it.
+ 	it needs ot manually resolved
+
+In general, a software project consists of more number of people
+
+	-->Every developer will make modifications to the code
+	-->to make sure that everyone have same code, we use version control sytem (Git) and repo (github)
+
+	

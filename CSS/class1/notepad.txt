@@ -1,0 +1,97 @@
+CSS- Cascading Style Sheets
+
+style sheets-- its related to color, background colors, position
+
+we have css properties
+	-css property will have a name and value
+	-btwn name and  value, we have a colon ":"
+	-after the value, we have a semi-coln ";"
+	-we can have multiple css properties applied on same element
+	propertyName: propertyValue;
+
+3 types of css
+	--inline (dont use it)
+	--internal 
+	--external (use it)
+
+which style will be in effect on an element (cascading and specificity will determine)
+
+Inline style sheets
+	- we use style attribute to add css
+	-this can only apply to one element at a time
+
+	<tagName style="/*css goes here*/"> content </tagName>
+
+**User agent stylesheet (browser default stylesheet)
+
+Internal Style sheets
+	-we use style element
+	
+	syntax: 
+	<style>
+		selector {
+			propertyName: propertyValue;
+		}
+	</style>
+
+Selectors: 
+	we can select elements depending on the criteria
+
+id
+	->we add an attribute id="idName" to one element
+	->every id is unique within a page
+	->syntax: 
+			#idName{
+			/*css properties goes here*/
+			}
+
+class
+	->we add an attribute class="className1 className2 ..."
+	->lot of elements within a page can have a same className
+	->same element can have multpile classes
+	->syntax: 
+			.className{
+			/*css properties goes here*/
+			}
+
+tagName
+	-> selects elements in css using their tagname
+	->syntax: 
+			tagName{
+			/*css properties goes here*/
+			}
+attribute
+
+	
+	->syntax: 
+			[attributeName]{
+			/*css properties goes here*/
+			}
+
+Precedence order by css:
+
+	-> inline
+	-> internal
+	-> external
+
+Precedence order by selectors:
+
+	id
+	classes, attributes
+	tagName
+
+when selectors are of same type
+	-> the one which comes at the end will have more preference
+
+
+	id
+		-use when you have to select only one element, and it needs to have highest precedence
+
+	attribute
+		-select multiple elements based on attribute
+
+	class
+		- use it when you need to select multiple different types of ellements
+
+	tagName
+		-use it to select multiple elements with same tagName

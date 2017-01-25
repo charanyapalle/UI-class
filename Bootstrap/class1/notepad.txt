@@ -1,0 +1,7 @@
+we can have rows and columns in bootstrap
+
+1 row = 12 columns
+
+colg
+
+Homework 10-Jan-08-2016 explain with examples? 

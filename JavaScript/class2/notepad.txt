@@ -1,0 +1,65 @@
+operationa precedence
+
+()
+
+* /
++ - (left to right)
+
+arithemeatic operations
+
++ ->  number, string
+- -> number
+* -> number
+/ -> number
+
+NAN - also a number  
+
+if (condition){
+	//stmt 1;
+}else {
+	//stmt 2;
+}
+
+if condition is true - stmt1 - executed
+if condition is false- stmt2 - executed
+
+truthy value and falsy value
+
+truthy value
+	condition is true
+	- array
+	- oject
+	- any number other than 0
+	- any string which is not empty
+
+falsy value
+	condition is false
+	- undefined
+	- null
+	- ''
+	- 0, NaN
+	- false
+
+lgical operators
+
+OR
+	exp1 || exp2
+		- if exp1 is a truthy value 
+			- result will be exp1
+		- if exp1 is a falsy value
+			- result will be exp2
+		--> it doesn't care about exp2
+
+ AND
+ 	exp && exp2
+ 		- if exp1 is a truthy value 
+			- result will be exp2
+		- if exp1 is a falsy value
+			- result will be exp1
+	--> it doesn't care about exp2
+
+Home work 14 -- January-15-2016 explain with examples? 
+
+1) all methods for numbers, string, array 
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number

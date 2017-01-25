@@ -1,0 +1,42 @@
+$primaryColor : red;
+
+div {
+	border: 2px solid $primaryColor;
+}
+
+p{
+	background-colr: $primaryColor;
+}
+
+div{
+	span{
+	color: $primaryColor;
+	}
+	p{
+	border: 2px solid black;
+	}
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { 
+	@include border-radius(10px); 
+}
+
+.box2{
+	@include border-radius(20px);
+}
+
+.container{
+	width: 100%;
+}
+
+article[role="main"]{
+	float: left;
+	width: 
+}

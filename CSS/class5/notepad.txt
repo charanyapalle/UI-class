@@ -1,0 +1,37 @@
+css box model
+
+	content
+	padding- white space around the content and border
+	border- color, border style
+	margin- around the border
+
+	border
+		- between padding and margin
+		-can have color
+		- only positive values, 0
+	margin
+		-around the border
+		-transparent i.e; may not have color
+		- negative value may be given, 0, +ve value
+
+
+	inline
+		-does not respect width or height propertiees
+		-it comes in same line
+
+	inline-block
+		-respect width or height propertiees
+		-it comes in same line
+
+	block
+		-respect width or height propertiees
+		-it comes in new line
+		
+	none
+		-we are not able to see the content
+		-does not occupy width and height
+
+	hidden
+		-we are not able to see the content
+		-occupies width and height
+		

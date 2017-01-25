@@ -1,0 +1,30 @@
+install ruby
+
+- open comand prompt with ruby
+
+create a folder
+
+c:
+cd filepath
+
+create a file named styles.scss (this is where we write sass code)
+
+
+gem install sass
+gem install compass
+
+to compile sass code to css
+sass--watch styles.scss:styles.css
+
+--watch--continously look for file changes
+
+styles.scss-- input file name where you write sass code
+
+styles.css-- output file name where css code is generated from sass code you write
+
+Home work 12 -- January-11-2016 explain with examples? 
+
+1) what are the data types in java script? 
+2) what are the diff between java and javascript espically in terms of variables? 3) why do we use javascript in web pages? 
+4) how to include javascript into webpages? 
+5) where to include java script in webpages and why?

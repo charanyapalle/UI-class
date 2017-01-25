@@ -1,0 +1,24 @@
+div {
+  border: 2px solid red; }
+
+p {
+  background-colr: red; }
+
+div span {
+  color: red; }
+div p {
+  border: 2px solid black; }
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.box2 {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,8 @@
+bootstrap buttons
+	->in every button add a class named btn
+	->depending upon the background color of the button 
+
+	->primary
+
+
+	Home work 11 -- January-09-2016 explain with examples? 1) display property values? 2) display none and visibility hidden differences in css? when do you use either one of them? 3) css box model? 4) box sizing in css? 5) what SASS? 6) what is preprocessor? why do you need to use preprocessor?

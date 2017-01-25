@@ -1,0 +1,57 @@
+rows and columns
+
+in row- line
+in a row we can have multiple columns
+
+tr-table row- to add a new table row we use tr
+th-table head column-to add a new table head column
+td-table data column-to add a new table data column
+
+thead- 
+tbody-
+
+border- around the table or column (cell)
+cellpadding- space between the content and cell border
+cellspacing- space between cells (columns) 
+margin-
+
+**polyfill**
+
+Semantic elements
+	to classify information 
+	Provides more meaning with
+
+<header>
+	-introductory content of webpage or article
+	-multiple headers can be placed in a webpage
+
+<footer>
+	- author, copyright, navigation links, contact info content of webpage or article
+
+<section>
+	breaking a webpae(document) or article into section
+
+<article>
+	self-contained content (all info regarding a specific entity is with in this article tag)
+	if you remove the article no traces about the entity would be left
+
+difference between html4 and html5
+
+	-lots of elements have been removed and added in html4 to html5
+	-Semantic elements
+	-media tags and attributes (audio and video features)
+	-Graphic tags (canvas and svg)
+	-drag and drop attributes added
+	-new html5 dom events are added
+	-html5 api's- web storage, application cache, web workers, navigator, geolocation, file api
+	-doctype definition is changed, now we don't need to provide DTD
+	-html5 input validations
+
+Homework6- Dec-28-2016
+
+explain with examples: 
+1) different types in css? 
+2) what is cascading in css? 
+3) why do we need to use css? 
+4) which type of css is a better practice? 
+5) what are selectors and why do we need them in css?

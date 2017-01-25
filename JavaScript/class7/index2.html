@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		function func1(){
+			console.log(this);
+		}
+		func1();
+		var newFunc = func1.bind({name: 'merry', nationality: "american"});
+		newFunc();
+	</script>
+</body>
+</html>

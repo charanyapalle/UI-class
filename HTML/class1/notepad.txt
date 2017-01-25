@@ -1,0 +1,45 @@
+
+
+
+tag
+	-> syntx: <tagname>
+	-> any tag will start with '<' symbol, followed by tagname, followed by '>' symbol
+	-> you cannot see tags in webpage
+	-> tags can make the content look in a different way
+	-> they can provide a meaning to the content
+
+two types of tags
+	open tag- <tagname>
+	close tag- </tagname>
+
+element
+	-> open tag + content + close tag
+
+examples of tags
+	->div, p, h1, span
+
+<br>
+	-> to break the content into different lines; line break
+
+&nbsp
+	->for extra spaces between content or to add a space character
+
+inline and block level elements
+
+inline
+	-> occupies the width as much as needed 
+	-> doesnt start on a new line
+
+block
+	-> occuppies as much as width possible
+	-> always starts on a new line
+
+
+Homework 4 December-21-2016
+
+1) how to create a list in html? orderlists and unorderlists
+2) how to include images in html
+3) how to take user input in html?
+4) how to have links to different web pages and link to different parts of some webpage?
+5) what is head, body, html element and why do we need them in the page? 
+6) what are semantic elements, describe about each one of them

@@ -1,0 +1,61 @@
+string
+	properties
+		- length
+	methods
+		- charAt(index)- returns the character
+		- charCodeAt(index)- returns the character code ( Ascii)
+		-concat(string1, string2)
+
+arrays
+	properties
+		-length
+
+	methods
+		- push
+			- add items at the end of an array
+		-pop
+			-remove items from the end of an array
+
+		-shift
+			-remove items from the start of an array
+
+		-unshift
+			- add items at the start of an array
+
+		-slice
+			- creates new array out of existing array
+			- it will not modify existing array
+			syntax:
+				 : var newArr = olArr. slice(firstIndex, lastIndex);
+				 newArr-> [oldArr[firstIndex + 1], oldArr[firstIndex + 2], oldArr[firstIndex + 3],...., oldArr[lastIndex]-1]
+
+		-indexOf(item)
+			-find the first index of item value in array
+				-if not found it returns -1
+		-lastIndexOF(item)
+			-find the last index of item value in array
+				-if not found it returns -1
+
+		-splice
+			-it will modify the existing array
+			-you can add items into an array
+			- you can remove items in an array
+			- you can replace items in an array
+
+			syntax:
+				arr.splice(firstIndex, deleteCount, itemtoadd1, itemtoadd2, ...)
+
+			-
+				arr5.splice(3,2);
+				-> from 3rd index two values will be removed
+				syntxx:
+					arr.splice(firstIndex, deleteCount);
+
+			-
+				ex:
+					arr5.splice(2,2, "how", "is", "everyone");
+				syntx:
+					arr.splice(firstIndex, deleteCount, itemstobeAdded,...);
+
+
+	Home work 16 -- January-17-2016 explain with examples: 1) array methods --> forEach, map, reduce, sort, reverse ,... https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array 2) what are the different ways to create objects? 3) what are properties in object? 4) how to retrieve a property value in object? 5) how to add a property into object? 6) how to remove a property in object? 7) how to update a property value in object? 8) how to check if an property exists with in an object?
